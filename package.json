@@ -1,0 +1,31 @@
+{
+  "name": "miguel-crawler",
+  "version": "1.0.0",
+  "description": "daily collection, a web crawler for Fibo",
+  "main": "main.js",
+  "scripts": {
+    "start": "node -r esm main.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "jest": "^27.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raad-dego/miguel-crawler.git"
+  },
+  "keywords": [
+    "crawler"
+  ],
+  "author": "Raad Dego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raad-dego/miguel-crawler/issues"
+  },
+  "homepage": "https://github.com/raad-dego/miguel-crawler#readme",
+  "dependencies": {
+    "jest-puppeteer": "^9.0.0",
+    "puppeteer": "^20.5.0"
+  }
+}

@@ -16,9 +16,9 @@ async function main() {
     } finally {
         if (browser) {
             await browser.close();
-            process.exit()
         }
     }
+    process.exit()
 };
 
 main()
